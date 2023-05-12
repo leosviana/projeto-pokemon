@@ -1,0 +1,9 @@
+*{
+    margin: 0;  /* RETIRANDO BORDA INTERNA */
+    padding: 0; /* RETIRANDO BORDA EXTERNA */
+    box-sizing: border-box; /* LARGURA E ALTURA */
+}
+
+ul{
+    list-style: none;
+}
