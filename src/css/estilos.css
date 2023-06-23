@@ -13,26 +13,27 @@ body.modo-escuro{
 
 header{
     display: flex;
-    justify-content: space-between;
-    padding: 25px;
+    justify-content: space-between; /* ESPAÇO ENTRE OS ELEMENTOS */
+    padding: 25px; /* ESPAÇAMENTO DE 25PX EM TODOS OS LADOS (CIMA, BAIXO, ESQUERDA, DIREITA) */
 }
 
 header .logo,
-header .imagem-botao,
-main .cartao-pokemon:hover{
+header .imagem-botao{
     width: 30px;
     transition: 0.2s ease-in-out; /* DURA 2 SEG. ENTRANDO E SAINDO COM O MOUSE */
 }
 
 header #botao-alterar-tema{ /* ID DO BOTÃO */
     background: none;
-    border: none;     
+    border: none;   
+    cursor: pointer; /* MOTRAR ICONE DE DEDO AO PASSAR O MOUSE */  
 }
 
 header .logo:hover,
-header .imagem-botao:hover{ /* PSEUDO-CLASSE */
+header .imagem-botao:hover,
+main .cartao-pokemon:hover{ /* PSEUDO-CLASSE */
     transform: scale(1.05); /* AUMENTAR O TAMANHO DO BOTÃO UM POUCO */
-    cursor: pointer; /* MAOZINHA DO MOUSE */
+    cursor: pointer; 
 }
 
 main{
@@ -43,15 +44,17 @@ main{
 }
 
 main .listagem-pokemon{
-    display: flex; /* COLOCA OS ELEMENTOS EM LINHA */
-    /*display: column; /* COLOCA OS ELEMENTOS EM COLUNA */
+    display: flex; /* COLOCA OS ELEMENTOS EM LINHA, UM AO LADO DO OUTRO */
+    /*display: column; /* COLOCA OS ELEMENTOS EM COLUNA, UM EMBAIXO DO OUTRO */
     gap: 30px; /* ESPAÇAMENTO ENTRE OS CARDS */
     flex-wrap: wrap; /* LINHAS UMA EMBAIXO DA OUTRA */
+    justify-content: center;
 }
 
 main .cartao-pokemon{
     background-color: #d8e3ec;
     width: 200px;
+    padding: 15px;
     display: flex; /* UM AO LADO DO OUTRO */
     flex-direction: column; /* EM COLUNA */
     align-items: center; /* ALINHA OS ITENS NO CENTRO */
