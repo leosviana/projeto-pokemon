@@ -6,7 +6,7 @@ Aulas ensinadas pela equipe DevEmDobro:<br>
 #3 - Desenvolvimento do botão para trocar de cor de fundo (JAVASCRIPT)<br>
 
 SITE FINALIZADO:<br>
-https://leosviana.github.io/projeto-pokemon/
+https://leosviana.github.io/projeto-pokemon/<br>
 BOTÃO "SOL" - MODO CLARO:
 ![image](https://github.com/leosviana/projeto-pokemon/blob/main/src/imagens/imagem-website-pokemon1.png)
 
