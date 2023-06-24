@@ -6,7 +6,7 @@ Aulas ensinadas pela equipe DevEmDobro:<br>
 #3 - Desenvolvimento do botão para trocar de cor de fundo (JAVASCRIPT)<br>
 
 SITE FINALIZADO:<br>
-https://leosviana.github.io/site-super-mario/
+https://leosviana.github.io/projeto-pokemon/
 ![image](https://github.com/leosviana/site-super-mario/blob/main/imagens/imagem-website-super-mario1.png)
 
 BOTÃO "VEJA O TRAILER":
