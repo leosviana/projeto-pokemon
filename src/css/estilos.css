@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad; /* COR DE FUNDO */
+    background-color: #5fa2adad; /* COR DE FUNDO */
     color: #333333; /* COR DE TEXTO */
 }
 
@@ -52,7 +52,7 @@ main .listagem-pokemon{
 }
 
 main .cartao-pokemon{
-    background-color: #d8e3ec;
+    background-color: #4783b4;
     width: 200px;
     padding: 15px;
     display: flex; /* UM AO LADO DO OUTRO */
