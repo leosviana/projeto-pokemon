@@ -7,7 +7,8 @@ Aulas ensinadas pela equipe DevEmDobro:<br>
 
 SITE FINALIZADO:<br>
 https://leosviana.github.io/projeto-pokemon/
-![image](https://github.com/leosviana/projeto-pokemon/blob/main/imagens/imagem-website-pokemon1.png)
+BOTÃO "SOL" - MODO CLARO:
+![image](https://github.com/leosviana/projeto-pokemon/blob/main/src/imagens/imagem-website-pokemon1.png)
 
-BOTÃO "VEJA O TRAILER":
-![image](https://github.com/leosviana/projeto-pokemon/blob/main/imagens/imagem-website-pokemon2.png)
+BOTÃO "LUA" - MODO ESCURO:
+![image](https://github.com/leosviana/projeto-pokemon/blob/main/src/imagens/imagem-website-pokemon2.png)
