@@ -2,12 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5fa2adad; /* COR DE FUNDO */
+    /* background-color: #5fa2adad; /* COR DE FUNDO */
+    background-image: url(../imagens/fundo-claro.jpg); /* IMAGEM DE FUNDO CLARO */
+    background-size: cover; /* AJUSTAR TAMANHO DA IMAGEM AO TAMANHO DO FUNDO */
     color: #333333; /* COR DE TEXTO */
 }
 
 body.modo-escuro{
-    background-color: #212121;
+    /* background-color: #212121; */
+    background-image: url(../imagens/fundo-escuro.jpg); /* IMAGEM DE FUNDO ESCURO */
+    background-size: cover; /* AJUSTAR TAMANHO DA IMAGEM AO TAMANHO DO FUNDO */
     color: #f5f5f5;
 }
 
@@ -17,9 +21,13 @@ header{
     padding: 25px; /* ESPAÇAMENTO DE 25PX EM TODOS OS LADOS (CIMA, BAIXO, ESQUERDA, DIREITA) */
 }
 
-header .logo,
+header .logo{
+    width: 200px;
+    transition: 0.2s ease-in-out; /* DURA 2 SEG. ENTRANDO E SAINDO COM O MOUSE */
+}
+
 header .imagem-botao{
-    width: 30px;
+    width: 40px;
     transition: 0.2s ease-in-out; /* DURA 2 SEG. ENTRANDO E SAINDO COM O MOUSE */
 }
 
@@ -48,11 +56,11 @@ main .listagem-pokemon{
     /*display: column; /* COLOCA OS ELEMENTOS EM COLUNA, UM EMBAIXO DO OUTRO */
     gap: 30px; /* ESPAÇAMENTO ENTRE OS CARDS */
     flex-wrap: wrap; /* LINHAS UMA EMBAIXO DA OUTRA */
-    justify-content: center;
+    justify-content: center; /* ALINHAR LISTAGEM AO CENTRO */
 }
 
 main .cartao-pokemon{
-    background-color: #4783b4;
+    background: linear-gradient(180deg, rgba(12,0,210,0.7707457983193278) 0%, rgba(15,15,204,0.773546918767507) 26%, rgba(0,212,255,0.5718662464985995) 100%); /* FONTE: https://cssgradient.io/ */
     width: 200px;
     padding: 15px;
     display: flex; /* UM AO LADO DO OUTRO */
